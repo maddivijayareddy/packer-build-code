@@ -13,6 +13,7 @@ source "amazon-ebs" "myami" {
   region        = "us-east-2"
   source_ami    =  "ami-00399ec92321828f5"
   ssh_username   ="ubuntu"
+}
 
 build {
   sources = [
