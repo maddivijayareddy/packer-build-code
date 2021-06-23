@@ -28,8 +28,7 @@ build {
       "sudo apt-get install tomcat9-admin tomcat9-common -y",
       "sudo apt-get install tomcat9 -y",
       "cd /var/lib/tomcat9/webapps/",
-      "sudo wget https://imageuplaodeforlambdafunction973765-us-east-2.s3.us-east-2.amazonaws.com/iris.war",
-      "sudo systemctl start tomcat9"
+       "sudo systemctl start tomcat9"
      ]
   }
 }
