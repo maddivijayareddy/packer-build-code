@@ -11,7 +11,7 @@ source "amazon-ebs" "myami" {
   ami_name      = "learn-packer-linux-aws"
   instance_type = "t2.micro"
   region        = "us-east-2"
-  source_ami    = "ami-00399ec92321828f5 "
+  source_ami    = "ami-00399ec92321828f5"
   ssh_username  = "ubuntu"
 }
 
